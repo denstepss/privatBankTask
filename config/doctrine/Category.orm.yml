@@ -1,0 +1,26 @@
+App\Entity\Category:
+  type: entity
+  table: categories
+  repositoryClass: App\Repository\CategoryRepository
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: AUTO
+  fields:
+    name:
+      type: string
+      length: 255
+
+  manyToMany:
+    products:
+      targetEntity: App\Entity\Product
+      inversedBy: categories
+      joinTable:
+        name: categories_products
+        joinColumns:
+          category_id:
+            referencedColumnName: id
+        inverseJoinColumns:
+          product_id:
+            referencedColumnName: id
