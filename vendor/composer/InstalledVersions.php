@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'd50a1cd3c03718e5041ca3428e368aada82df542',
+    'reference' => '2023e6d8cd18bdabe60fce218695ea35b957343f',
     'name' => '__root__',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'd50a1cd3c03718e5041ca3428e368aada82df542',
+      'reference' => '2023e6d8cd18bdabe60fce218695ea35b957343f',
     ),
     'composer/package-versions-deprecated' => 
     array (
@@ -243,6 +243,15 @@ private static $installed = array (
       ),
       'reference' => 'bf371f55d8137fec4ff096bd45ff19e2db02ac4c',
     ),
+    'knplabs/knp-components' => 
+    array (
+      'pretty_version' => 'v3.1.0',
+      'version' => '3.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f06a6ebea71a91c8cd34213f9417004062133627',
+    ),
     'knplabs/knp-menu' => 
     array (
       'pretty_version' => 'v3.2.0',
@@ -260,6 +269,16 @@ private static $installed = array (
       array (
       ),
       'reference' => '2b4c3bcba1646aef17b5e368f3004b108330c59b',
+    ),
+    'knplabs/knp-paginator-bundle' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+        0 => '5.x-dev',
+      ),
+      'reference' => 'd5608abc236b6896a413a924a6637738da9705eb',
     ),
     'laminas/laminas-code' => 
     array (

@@ -1,0 +1,13 @@
+<p>
+    Secured links:
+    <a href="{{ path('categories') }}"><b>To Categories</b></a>
+    <a href="{{ path('sonata_admin_dashboard') }}"><b>To Admin</b></a>
+</p>
+<p>
+    <a href="{{ path('index') }}"><b>Main page</b></a>
+    {% if is_granted('ROLE_ADMIN') %}
+        <a href="{{ path('fos_user_security_logout') }}"><b>Logg out</b></a>
+    {% else %}
+        <a href="{{ path('fos_user_security_login') }}"><b>Logg in</b></a>
+    {% endif %}
+</p>

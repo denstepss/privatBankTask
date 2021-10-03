@@ -13,6 +13,7 @@
         "doctrine/doctrine-migrations-bundle": "^3.1",
         "doctrine/orm": "^2.9",
         "friendsofsymfony/user-bundle": "dev-master",
+        "knplabs/knp-paginator-bundle": "dev-master",
         "phpdocumentor/reflection-docblock": "^5.2",
         "sensio/framework-extra-bundle": "^6.1",
         "sonata-project/admin-bundle": "^4.0",

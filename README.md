@@ -11,4 +11,8 @@ Give a role for user:
 php bin/console fos:user:promote admin
 Please choose a role:ROLE_ADMIN
 
+AlreadyCreatedUser: admin
+Password: 1
+
+
 

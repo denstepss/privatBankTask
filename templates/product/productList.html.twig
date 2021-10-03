@@ -1,0 +1,10 @@
+{% if products|length > 0 %}
+    <div>
+        {% for product in products %}
+            <li>{{ product.name }}</li>
+        {% endfor %}
+    </div>
+    {{ knp_pagination_render(products) }}
+{% else %}
+    <h1>Products not found</h1>
+{% endif %}

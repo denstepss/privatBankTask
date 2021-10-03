@@ -1,0 +1,18 @@
+{% if products|length > 0 %}
+    <table>
+        <tr>
+            <th>ProductName</th>
+            <th>ProductCategories</th>
+        </tr>
+        {% for product in products %}
+            <tr>
+                <td>{{ product.name }}</td>
+                <td>
+                    {% include 'category/categoryList.html.twig' with {'categories': product.categories} %}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <h1>Products not found</h1>
+{% endif %}

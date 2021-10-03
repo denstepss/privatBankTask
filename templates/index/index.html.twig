@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Visitor!{% endblock %}
+
+{% block body %}
+
+<div class="example-wrapper">
+    <h1>Hello Visitor!</h1>
+    <h2>You need to be logged in to have access for secured links</h2>
+    {% include 'product/productAndCategoryList.html.twig' %}
+</div>
+{% endblock %}

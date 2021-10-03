@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello CategoryController!{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    Categories Block
+    {% include 'category/categoryList.html.twig' %}
+    <p>Products Block </p>
+    {% include 'product/productList.html.twig' %}
+</div>
+{% endblock %}
