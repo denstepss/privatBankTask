@@ -88,6 +88,9 @@
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
     },
+    "friendsofsymfony/user-bundle": {
+        "version": "3.x-dev"
+    },
     "jms/metadata": {
         "version": "2.5.1"
     },
@@ -561,6 +564,9 @@
         "version": "v5.3.4"
     },
     "symfony/string": {
+        "version": "v5.3.7"
+    },
+    "symfony/templating": {
         "version": "v5.3.7"
     },
     "symfony/translation": {

@@ -1,0 +1,21 @@
+App\Entity\User:
+  type: entity
+  table: users
+  repositoryClass: App\Repository\UserRepository
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: AUTO
+  fields:
+    email:
+      type: string
+      length: 180
+    usernameCanonical:
+      type: string
+      length: 180
+    roles:
+      type: json
+    password:
+      type: string
+

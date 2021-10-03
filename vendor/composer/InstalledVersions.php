@@ -25,24 +25,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'd50a1cd3c03718e5041ca3428e368aada82df542',
     'name' => '__root__',
   ),
   'versions' => 
   array (
     '__root__' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'd50a1cd3c03718e5041ca3428e368aada82df542',
     ),
     'composer/package-versions-deprecated' => 
     array (
@@ -214,6 +214,16 @@ private static $installed = array (
       array (
       ),
       'reference' => '006aa5d32f887a4db4353b13b5b5095613e0611f',
+    ),
+    'friendsofsymfony/user-bundle' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+        0 => '3.x-dev',
+      ),
+      'reference' => 'b48f8200d21c3a3ac2134e15cdc0ee8ab59b04fc',
     ),
     'jms/metadata' => 
     array (
@@ -1351,6 +1361,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '8d224396e28d30f81969f083a58763b8b9ceb0a5',
+    ),
+    'symfony/templating' => 
+    array (
+      'pretty_version' => 'v5.3.7',
+      'version' => '5.3.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '768d2fc5a9c9c93aad8c10af834a89f9d9d31011',
     ),
     'symfony/translation' => 
     array (
